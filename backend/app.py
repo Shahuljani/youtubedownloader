@@ -10,8 +10,10 @@ import uuid
 import tempfile
 import shutil
 
-app = Flask(__name__)
-CORS(app)
+CORS(app, origins=[
+    "http://localhost:5173",
+    "https://stucon.netlify.app"
+])
 
 # ─────────────────────────────────────────────
 # PROGRESS TRACKING (in-memory, auto-cleaned)
