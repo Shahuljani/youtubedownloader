@@ -1,7 +1,7 @@
 import React from "react"; 
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const API = "http://localhost:5000";
+const API = "https://youtubedownloader-1rf1.onrender.com";
 
 const AUDIO_FORMATS = ["mp3", "wav", "opus", "ogg"];
 const VIDEO_FORMATS = ["mp4", "webm"];
